@@ -12,6 +12,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-
+  modules:[
+    '@nuxtjs/google-fonts'
+  ],
+  googleFonts:{
+    families:{
+      Inter: true
+    }
+  }
 });
