@@ -49,10 +49,10 @@
               <div
                 :class="
                   productMenu
-                    ? 'rounded-lg items-end mt-[12rem] ml-[7rem] lg:ml-0 lg:mt-[20rem] border grid grid-cols-1 lg:grid-cols-2 bg-white fixed p-4 gap-4 space-y-4  lg:items-center'
+                    ? 'rounded-lg items-end mt-[12rem] ml-[7rem] lg:ml-0 lg:mt-[20rem] border grid grid-cols-1 lg:grid-cols-2 bg-white fixed p-4 gap-4 space-y-4'
                     : 'hidden'
                 ">
-                <div class="flex flex-col w-[15rem] gap-3">
+                <div class="flex flex-col w-[15rem] items-start gap-3">
                   <div class="flex items-center gap-4">
                     <svg
                       class="p-1 bg-gray-300 rounded-sm"
@@ -71,7 +71,7 @@
                     </p>
                   </div>
                   <p
-                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151]">
+                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151] text-left">
                     Hire expert QA Engineers to join your product teams
                   </p>
                 </div>
@@ -94,7 +94,7 @@
                     </p>
                   </div>
                   <p
-                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151]">
+                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151] text-left">
                     Let us handle all your QA needs from start to finish
                   </p>
                 </div>
@@ -117,7 +117,7 @@
                     </p>
                   </div>
                   <p
-                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151]">
+                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151] text-left">
                     Upskill yourself and begin your career as QA Engineer
                   </p>
                 </div>
@@ -140,7 +140,7 @@
                     </p>
                   </div>
                   <p
-                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151]">
+                    class="hidden lg:block text-[0.875rem] leading-[1.2rem] text-[#374151] text-left">
                     Get actionable insights from your users using our
                     usertesting tool.
                   </p>
